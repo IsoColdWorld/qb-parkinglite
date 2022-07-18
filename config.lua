@@ -10,7 +10,7 @@ Config.DisplayDistance           = 20.0       -- 👉 Distence to see text above
 
 Config.KeyBindButton             = "F5"       -- 👉 If you want to change the drive and park button. (you must use /binds for this)
 Config.parkingButton             = 166        -- 👉 F5 (vehicle exit and or park)
-Config.useRoleplayName           = true       -- 👉 If you want to use Roleplay name above the cars (firstname lastname) set this on true
+Config.useRoleplayName           = false       -- 👉 If you want to use Roleplay name above the cars (firstname lastname) set this on true
 
 Config.UseStopSpeedForPark       = true       -- 👉 Default true
 Config.MinSpeedToPark            = 1          -- 👉 Default 1 the min speed to park
@@ -22,8 +22,8 @@ Config.ResetState                = 1          -- 👉 1 is stored in garage, 2 i
 
 -- 👇 Base config when the server start, this is the default settings
 Config.UseParkingSystem          = true       -- 👉 Auto turn on when server is starting. (default true)
-Config.UseParkedVehicleNames     = true       -- 👉 Default is false, if you want to see names just type /park-names on/off if you set this to true it is auto on 
-Config.UseOwnerNames             = true
+Config.UseParkedVehicleNames     = false       -- 👉 Default is false, if you want to see names just type /park-names on/off if you set this to true it is auto on 
+Config.UseOwnerNames             = false
 Config.UseParkingBlips           = true
 
 
@@ -31,7 +31,7 @@ Config.UseMaxParkingOnServer     = true       -- 👉 if you want to limit the p
 Config.MaxServerParkedVehicles   = 15         -- 👉 max allowed to park on server
 
 Config.UseMaxParkingPerPlayer    = true       -- 👉 if you want to limit players with a amount of parking vehicles
-Config.MaxStreetParkingPerPlayer = 1          -- 👉 max allowed parking vehicles per player
+Config.MaxStreetParkingPerPlayer = 4          -- 👉 max allowed parking vehicles per player
 
 Config.UseForVipOnly             = false
 
